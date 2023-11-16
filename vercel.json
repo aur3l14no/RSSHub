@@ -1,4 +1,25 @@
 {
     "framework": null,
     "routes": [{ "src": "/.*", "dest": "/api/vercel.js" }]
+    "routes": [
+        {
+            "src": "/.*",
+            "dest": "/401",
+            "status": 401,
+            "headers": {
+                "www-authenticate": "Basic realm=\"secure\""
+            },
+            "missing": [
+                {
+                    "type": "header",
+                    "key": "authorization",
+                    "value": "Basic c2ltcGxlOm0xbWE="
+                }
+            ]
+        },
+        {
+            "src": "/.*",
+            "dest": "/api/vercel.js"
+        }
+    ]
 }
