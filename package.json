@@ -87,7 +87,7 @@
     "@notionhq/client": "2.2.13",
     "@postlight/parser": "2.2.3",
     "@sentry/node": "7.81.0",
-    "@tonyrl/rand-user-agent": "2.0.39",
+    "@tonyrl/rand-user-agent": "2.0.40",
     "aes-js": "3.1.2",
     "art-template": "4.13.2",
     "bbcodejs": "0.0.4",
@@ -150,7 +150,7 @@
   },
   "devDependencies": {
     "@microsoft/eslint-formatter-sarif": "3.0.0",
-    "@stylistic/eslint-plugin-js": "1.3.2",
+    "@stylistic/eslint-plugin-js": "1.4.0",
     "@types/aes-js": "3.1.4",
     "@types/crypto-js": "4.2.1",
     "@types/eslint": "8.44.7",
